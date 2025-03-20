@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color:white;
+  color: black;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: black;
+  
+}
+
+header h3 {
+  font-size: 2rem;
+  color:white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+#ramen-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+#ramen-menu img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#ramen-menu img:hover {
+  transform: scale(1.1);
+}
+
+#ramen-detail {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ramen-detail .detail-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#ramen-detail h2 {
+  font-size: 1.8rem;
+  color:black;
+  margin-bottom: 10px;
+}
+
+#ramen-detail h3 {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#ramen-detail p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+#ramen {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#ramen h4 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#ramen label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#ramen input,
+#ramen textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#ramen input:focus,
+#ramen textarea:focus {
+  border-color: #e67e22;
+  outline: none;
+}
+
+#ramen input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ramen input[type="submit"]:hover {
+  background-color:rgb(38, 157, 164);
+}
+
+#ramen textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color:black;
+}
+
+footer p {
+  margin: 0;
+}
